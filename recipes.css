@@ -1,0 +1,32 @@
+.recipe-image {
+    max-width: 80%;
+    height: auto;
+    margin: 2rem;
+}
+
+hr {
+    width: 80%;
+    margin-left: 2rem;
+}
+
+.recipe-image-container {
+   max-width: 100%;
+}
+
+.recipe-title {
+    text-transform: uppercase;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.recipe-description {
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.recipe-table td, th{
+    padding: 0.5em;
+}
+
+.recipe-table {
+    margin: 2rem;
+}
+
