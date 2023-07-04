@@ -3,5 +3,27 @@ nav > p {
 }
 
 .accordion {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.accordion-body {
+  border: 0;
+}
+
+#header {
+  width: 100%;
+  margin: 0;
+}
+
+.wrapper-menu {
+  display: flex;
+}
+
+.wrapper-menu ul {
+  list-style: none;
+}
+
+.current {
+  background-color: red;
+  color: red;
 }

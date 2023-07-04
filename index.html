@@ -20,7 +20,10 @@
   </head>
   <body>
     <main class="row container-fluid bg-body-secondary">
-      <nav class="d-block col-3 bg-light border-end border-bottom border-3">
+      <nav
+        class="d-block col-3 bg-light border-end border-bottom border-3"
+        style="padding-right: 0px; padding-left: 0px"
+      >
         <h1 class="row d-flex justify-content-center">Saffron</h1>
         <p
           class="row d-flex justify-content-center text-body-tertiary border-bottom"
@@ -29,7 +32,7 @@
         </p>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
-            <h2 class="accordion-header">
+            <h2 class="accordion-header" id="header">
               <button
                 class="accordion-button collapsed bg-light"
                 type="button"
@@ -37,8 +40,9 @@
                 data-bs-target="#flush-collapseOne"
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
+                id="accordion-button"
               >
-                Accordion Item #1
+                Spice & Rice
               </button>
             </h2>
             <div
@@ -47,9 +51,24 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body bg-light">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
+                <div class="wrapper-menu">
+                  <div class="left-menu">
+                    <ul>
+                      <a href="index.html"><li>Salad</li></a>
+                      <a><li>Spices & more</li></a>
+                      <a><li>Rice</li></a>
+                      <a><li>Main dish</li></a>
+                    </ul>
+                  </div>
+                  <div class="right-menu">
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
