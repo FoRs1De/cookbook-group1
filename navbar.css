@@ -1,29 +1,63 @@
 nav > p {
   padding-bottom: 10px;
-}
-
-.accordion {
-  margin-bottom: 15px;
-}
-
-.accordion-body {
-  border: 0;
-}
-
-#header {
-  width: 100%;
   margin: 0;
+}
+
+#button {
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .wrapper-menu {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .wrapper-menu ul {
   list-style: none;
 }
 
-.current {
-  background-color: red;
-  color: red;
+.wrapper-menu li {
+  margin-top: 10px;
+  padding: 1em;
+  font-size: 1em;
+  color: black;
+  font-weight: 500;
+}
+
+.wrapper-menu a {
+  text-decoration: none;
+}
+
+.current li {
+  background-color: grey;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed):focus {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+}
+
+.left-menu ul {
+  padding-left: 0;
+}
+
+.left-menu {
+  width: 40%;
+  min-width: 135px;
+}
+
+.right-menu {
+  width: 60%;
+  min-width: 135px;
+}
+
+.right-menu ul {
+  padding-left: 0;
 }

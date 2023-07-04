@@ -21,7 +21,7 @@
   <body>
     <main class="row container-fluid bg-body-secondary">
       <nav
-        class="d-block col-3 bg-light border-end border-bottom border-3"
+        class="d-block col-4 bg-light border-end border-bottom border-3"
         style="padding-right: 0px; padding-left: 0px"
       >
         <h1 class="row d-flex justify-content-center">Saffron</h1>
@@ -30,29 +30,39 @@
         >
           725 / RECIPES
         </p>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div
+          class="accordion accordion-flush"
+          id="accordionPanelsStayOpenExample"
+        >
           <div class="accordion-item">
-            <h2 class="accordion-header" id="header">
+            <h2 id="header" class="accordion-header bg-light">
               <button
-                class="accordion-button collapsed bg-light"
+                class="accordion-button border-bottom bg-light"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
+                data-bs-target="#panelsStayOpen-collapseOne"
                 aria-expanded="false"
-                aria-controls="flush-collapseOne"
-                id="accordion-button"
+                aria-controls="panelsStayOpen-collapseOne"
+                id="button"
               >
-                Our food menu
+                Our best ever menu
               </button>
             </h2>
             <div
-              id="flush-collapseOne"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
             >
-              <div class="accordion-body bg-light">
+              <div
+                class="accordion-body bg-light"
+                style="
+                  padding-right: 0px;
+                  padding-left: 0px;
+                  padding-bottom: 0px;
+                  padding-top: 0px;
+                "
+              >
                 <div class="wrapper-menu">
-                  <div class="left-menu">
+                  <div class="left-menu border-end border-bottom">
                     <ul>
                       <a href="index.html"><li>Soups</li></a>
                       <a><li>Spices & more</li></a>
@@ -60,12 +70,11 @@
                       <a><li>Main dish</li></a>
                     </ul>
                   </div>
-                  <div class="right-menu">
+                  <div class="right-menu border-bottom">
                     <ul>
-                        <a href="index.html"><li>Creamy Pumpkin Soup</li></a>
-                        <a><li>sdasd</li></a>
-                        <a><li>dsdsd</li></a>
-                        
+                      <a href="index.html"><li>Creamy Pumpkin Soup</li></a>
+                      <a><li>sdasd</li></a>
+                      <a><li>dsdsd</li></a>
                     </ul>
                   </div>
                 </div>
@@ -74,43 +83,55 @@
           </div>
         </div>
       </nav>
-      <content class="col-9 bg-light"><h2 class="recipe-title row d-flex flex-column">Creamy pumpkin soup</h2>
-        <hr>
-        <p class="recipe-description">Spend a cosy evening at home and enjoy a bowl of soul warming soup. What is autumn withouth pumpkins anyway?</p>
+      <content class="col-8 bg-light"
+        ><h2 class="recipe-title row d-flex flex-column">
+          Creamy pumpkin soup
+        </h2>
+        <hr />
+        <p class="recipe-description">
+          Spend a cosy evening at home and enjoy a bowl of soul warming soup.
+          What is autumn withouth pumpkins anyway?
+        </p>
         <div class="recipe-image-container">
-            <img class="recipe-image" src="https://images.pexels.com/photos/1277483/pexels-photo-1277483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A bowl of creamy pumpkin soup served">
+          <img
+            class="recipe-image"
+            src="https://images.pexels.com/photos/1277483/pexels-photo-1277483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="A bowl of creamy pumpkin soup served"
+          />
         </div>
         <table class="recipe-table">
+          <tbody>
             <tr>
-                <th>Measurements</th>
-                <th>Ingredients</th>
+              <th>Measurements</th>
+              <th>Ingredients</th>
             </tr>
             <tr>
-                <td>1 kg</td>
-                <td>Pumpkin of your choice</td>
+              <td>1 kg</td>
+              <td>Pumpkin of your choice</td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>Onion</td>
+              <td>1</td>
+              <td>Onion</td>
             </tr>
             <tr>
-                <td>2</td>
-                <td>Garlic gloves</td>
+              <td>2</td>
+              <td>Garlic gloves</td>
             </tr>
             <tr>
-                <td>750 ml</td>
-                <td>Vegetable broth</td>
+              <td>750 ml</td>
+              <td>Vegetable broth</td>
             </tr>
             <tr>
-                <td>250 ml</td>
-                <td>Water</td>
+              <td>250 ml</td>
+              <td>Water</td>
             </tr>
             <tr>
-                <td></td>
-                <td colspan="2">Salt and pepper</td>
+              <td></td>
+              <td colspan="2">Salt and pepper</td>
             </tr>
-            </tbody>
-        </table></content>
+          </tbody>
+        </table>
+      </content>
     </main>
   </body>
 </html>
