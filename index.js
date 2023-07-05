@@ -1,3 +1,5 @@
+// ACTIVE LINK CLASS .current
+
 function highlightCurrent() {
   const curPage = document.URL;
   const links = document.getElementsByTagName('a');
@@ -13,3 +15,16 @@ document.onreadystatechange = () => {
     highlightCurrent();
   }
 };
+
+function smash(words) {
+  let myArray = [];
+  let resultArray = myArray.push(words);
+
+  return "resultArray.join('');";
+}
+
+// SHARE BUTTON CLICK
+
+function myFunction() {
+  alert(`DO NOT EVEN TRY, THIS WEBSITE IS MADE BY BEGINNERS`);
+}

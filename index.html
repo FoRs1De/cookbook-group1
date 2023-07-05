@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
@@ -64,7 +71,11 @@
                 <div class="wrapper-menu">
                   <div class="left-menu border-end border-bottom">
                     <ul>
-                      <a href="index.html"><li>Soups</li></a>
+                      <a href="index.html"
+                        ><li>
+                          Soups
+                          <i class="fa-solid fa-ellipsis-vertical"></i></li
+                      ></a>
                       <a><li>Spices & more</li></a>
                       <a><li>Rice</li></a>
                       <a><li>Main dish</li></a>
@@ -83,10 +94,21 @@
           </div>
         </div>
       </nav>
-      <content class="col-8 bg-light"
-        ><h2 class="recipe-title row d-flex flex-column">
-          Creamy pumpkin soup
-        </h2>
+      <content class="col-8 bg-light">
+        <div class="font-awesome">
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-list-check"></i>
+          <i class="fa-regular fa-calendar-check"></i>
+          <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+          <i class="fa-solid fa-ruler"></i>
+          <a href="#"
+            ><i class="fa-solid fa-share-nodes" onclick="myFunction()"></i
+          ></a>
+          <i class="fa-solid fa-file-import"></i>
+          <i class="fa-solid fa-trash"></i>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <h2 class="recipe-title row d-flex flex-column">Creamy pumpkin soup</h2>
         <hr />
         <p class="recipe-description">
           Spend a cosy evening at home and enjoy a bowl of soul warming soup.

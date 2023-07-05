@@ -23,6 +23,9 @@ nav > p {
   font-size: 1em;
   color: black;
   font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .wrapper-menu a {
