@@ -1,0 +1,28 @@
+.frontpage-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.frontpage-paragraph {
+    padding: 0.5em;
+}
+
+.frontpage-title {
+    align-self: center;
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-size: 3em;
+}
+
+.frontpage-img {
+    width: 60%;
+    height: auto;
+    align-self: center;
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.frontpage-paragraph:nth-of-type(2) {
+    align-self: center;
+}
