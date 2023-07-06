@@ -1,5 +1,12 @@
 @import url('navbar.css');
+@import url('recipes.css');
 
 /* PLEASE USE SEPERATE CSS FILE FOR EVERY RECEIPE PAGE 
 AND DO NOT CHANGE MAIN STYLES CSS 
 AND USE UNIQE CLASS NAMES */
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
