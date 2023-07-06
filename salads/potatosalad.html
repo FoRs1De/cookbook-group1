@@ -22,7 +22,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" href="/styles.css" />
-    <script src="./index.js"></script>
+    <script src="/index.js"></script>
     <title>Cook Book Group1</title>
   </head>
   <body class="bg-light">
@@ -71,10 +71,10 @@
                 "
               >
                 <div class="wrapper-menu">
-                  <div class="left-menu border-end border-bottom">
+                  <div class="left-menu border-end">
                     <ul>
                       <a href="/sopus/pumpkinSoup.html"
-                        ><li id="current">
+                        ><li>
                           Soups
                           <i class="fa-solid fa-ellipsis-vertical"></i></li
                       ></a>
@@ -85,7 +85,7 @@
                           ></i></li
                       ></a>
                       <a href="/salads/guacamole.html"
-                        ><li>
+                        ><li id="current">
                           Salads<i
                             class="fa-solid fa-ellipsis-vertical"
                           ></i></li
@@ -94,16 +94,44 @@
                         ><li>
                           Rice<i class="fa-solid fa-ellipsis-vertical"></i></li
                       ></a>
+                      <a><li id="add-section">Add Section</li></a>
                     </ul>
                   </div>
-                  <div class="right-menu border-bottom">
+                  <div class="right-menu">
                     <ul>
-                      <a href="/sopus/pumpkinSoup.html"
-                        ><li id="current">Creamy Pumpkin Soup</li></a
+                      <a href="/salads/guacamole.html"><li>Guacamole</li></a>
+                      <a href="/salads/potatosalad.html"
+                        ><li id="current">Potato Salad</li></a
                       >
+                      <a><li id="add-section">Add Recipe</li></a>
                     </ul>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header bg-light" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed border-bottom bg-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+                id="button2"
+              >
+                About us
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body bg-light border-bottom border-2">
+                WE ARE SO COOL
               </div>
             </div>
           </div>
@@ -126,7 +154,8 @@
         <h2 class="recipe-title row d-flex flex-column">Easy potato salad</h2>
         <hr />
         <p class="recipe-description">
-          This potato salad is great on the side or as a light cold lunch in the summertime. 
+          This potato salad is great on the side or as a light cold lunch in the
+          summertime.
         </p>
         <div class="recipe-image-container">
           <img
@@ -162,16 +191,16 @@
               <td>Eggs</td>
             </tr>
             <tr>
-                <td>80g</td>
-                <td>Sweet onion</td>
+              <td>80g</td>
+              <td>Sweet onion</td>
             </tr>
             <tr>
-                <td>15ml</td>
-                <td>Dill</td>
+              <td>15ml</td>
+              <td>Dill</td>
             </tr>
             <tr>
-                <td>15ml</td>
-                <td>Celery seeds</td>
+              <td>15ml</td>
+              <td>Celery seeds</td>
             </tr>
             <tr>
               <td></td>
