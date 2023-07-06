@@ -7,6 +7,13 @@
 .font-awesome i {
   margin-left: 30px;
 }
+
+@media only screen and (max-width: 1050px) {
+  .font-awesome i {
+    margin-left: 15px;
+  }
+}
+
 .font-awesome a {
   text-decoration: none;
   color: #b6a27d;
