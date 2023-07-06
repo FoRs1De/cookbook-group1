@@ -15,12 +15,16 @@
     font-size: 3em;
 }
 
-.frontpage-img {
-    width: 60%;
+.frontpage-img-container {
+    width: 80%;
     height: auto;
     align-self: center;
     border: 2px solid #fff;
     box-shadow: 10px 10px 5px #ccc;
+}
+
+.frontpage-img-container img {
+    width: 100%;
 }
 
 .frontpage-paragraph:nth-of-type(2) {
