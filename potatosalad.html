@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <script src="./index.js"></script>
+    <title>Cook Book Group1</title>
+  </head>
+  <body class="bg-light">
+    <main class="row container-fluid">
+      <nav
+        class="d-block col-4 bg-light border-end border-bottom border-3"
+        style="padding-right: 0px; padding-left: 0px"
+      >
+        <h1 class="row d-flex justify-content-center">
+          <a href="/">Saffron</a>
+        </h1>
+        <p
+          class="row d-flex justify-content-center text-body-tertiary border-bottom"
+        >
+          725 / RECIPES
+        </p>
+        <div
+          class="accordion accordion-flush"
+          id="accordionPanelsStayOpenExample"
+        >
+          <div class="accordion-item">
+            <h2 id="header" class="accordion-header bg-light">
+              <button
+                class="accordion-button border-bottom bg-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseOne"
+                id="button"
+              >
+                Our best ever menu
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+            >
+              <div
+                class="accordion-body bg-light"
+                style="
+                  padding-right: 0px;
+                  padding-left: 0px;
+                  padding-bottom: 0px;
+                  padding-top: 0px;
+                "
+              >
+                <div class="wrapper-menu">
+                  <div class="left-menu border-end border-bottom">
+                    <ul>
+                      <a href="/sopus/pumpkinSoup.html"
+                        ><li id="current">
+                          Soups
+                          <i class="fa-solid fa-ellipsis-vertical"></i></li
+                      ></a>
+                      <a href="/main-dish/lasagne.html"
+                        ><li>
+                          Main dish<i
+                            class="fa-solid fa-ellipsis-vertical"
+                          ></i></li
+                      ></a>
+                      <a href="/salads/guacamole.html"
+                        ><li>
+                          Salads<i
+                            class="fa-solid fa-ellipsis-vertical"
+                          ></i></li
+                      ></a>
+                      <a
+                        ><li>
+                          Rice<i class="fa-solid fa-ellipsis-vertical"></i></li
+                      ></a>
+                    </ul>
+                  </div>
+                  <div class="right-menu border-bottom">
+                    <ul>
+                      <a href="/sopus/pumpkinSoup.html"
+                        ><li id="current">Creamy Pumpkin Soup</li></a
+                      >
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <content class="col-8 bg-light">
+        <div class="font-awesome">
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-list-check"></i>
+          <i class="fa-regular fa-calendar-check"></i>
+          <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+          <i class="fa-solid fa-ruler"></i>
+          <a href="#"
+            ><i class="fa-solid fa-share-nodes" onclick="myFunction()"></i
+          ></a>
+          <i class="fa-solid fa-file-import"></i>
+          <i class="fa-solid fa-trash"></i>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <h2 class="recipe-title row d-flex flex-column">Easy potato salad</h2>
+        <hr />
+        <p class="recipe-description">
+          This potato salad is great on the side or as a light cold lunch in the summertime. 
+        </p>
+        <div class="recipe-image-container">
+          <img
+            class="recipe-image"
+            src="https://plus.unsplash.com/premium_photo-1676313449501-8ed94e22a65b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+            alt="Potato salad served"
+          />
+        </div>
+        <table class="recipe-table">
+          <tbody>
+            <tr>
+              <th>Measurements</th>
+              <th>Ingredients</th>
+            </tr>
+            <tr>
+              <td>2kg</td>
+              <td>Potatoes</td>
+            </tr>
+            <tr>
+              <td>400g</td>
+              <td>Mayonnaise</td>
+            </tr>
+            <tr>
+              <td>30ml</td>
+              <td>Mustard</td>
+            </tr>
+            <tr>
+              <td>15ml</td>
+              <td>Apple cider vinegar</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Eggs</td>
+            </tr>
+            <tr>
+                <td>80g</td>
+                <td>Sweet onion</td>
+            </tr>
+            <tr>
+                <td>15ml</td>
+                <td>Dill</td>
+            </tr>
+            <tr>
+                <td>15ml</td>
+                <td>Celery seeds</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">Salt and pepper</td>
+            </tr>
+          </tbody>
+        </table>
+      </content>
+    </main>
+  </body>
+</html>
