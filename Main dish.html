@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="./index.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="row container-fluid bg-body-secondary">
+    <nav class="d-block col-3 bg-light border-end border-bottom border-3">
+      <h1 class="row d-flex justify-content-center">Saffron</h1>
+      <p class="row d-flex justify-content-center text-body-tertiary border-bottom">
+        725 / RECIPES
+      </p>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-light">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              first item's accordion body.
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <content class="col-9 bg-light">
+      <h2 class="recipe-title row d-flex flex-column">Chicken and Potatoes with Dijon Cream Sauce</h2>
+      <hr>
+      <p class="recipe-description">Who wouldn't want a tasty and creamy Dijon Cream Sauce over tender Chicken Breast
+        with delicious potatoes?
+      </p>
+      <div class="recipe-image-container">
+        <img class="recipe-image"
+          src="https://www.lecremedelacrumb.com/wp-content/uploads/2020/05/dijon-chicken-potatoes-3sm-1.jpg"
+          alt="A bowl of creamy pumpkin soup served">
+      </div>
+      <table class="recipe-table">
+        <tr>
+          <th>Measurements</th>
+          <th>Ingredients</th>
+        </tr>
+        <tr>
+          <td>800 g</td>
+          <td>Boneless, skinless chicken breasts</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Baby potatoes</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Minced Garlic gloves</td>
+        </tr>
+        <tr>
+          <td>750 ml</td>
+          <td>Heavy Cream</td>
+        </tr>
+        <tr>
+          <td>60 g</td>
+          <td>Dijon Mustard</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">Salt, Pepper and Olive oil</td>
+        </tr>
+        </tbody>
+      </table>
+    </content>
+  </main>
+</body>
+
+</html>
