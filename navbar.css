@@ -64,3 +64,13 @@ nav > p {
 .right-menu ul {
   padding-left: 0;
 }
+
+#add-section {
+  color: #b6a27d;
+  border-top: 1px solid lightgray;
+}
+
+#button2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
