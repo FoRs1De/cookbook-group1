@@ -21,7 +21,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
     <script src="./index.js"></script>
     <title>Cook Book Group1</title>
   </head>
@@ -77,7 +77,7 @@
                           <i class="fa-solid fa-ellipsis-vertical"></i></li
                       ></a>
                       <a href="/main-dish/lasagne.html"
-                        ><li>
+                        ><li id="current">
                           Main dish<i
                             class="fa-solid fa-ellipsis-vertical"
                           ></i></li
@@ -96,9 +96,10 @@
                   </div>
                   <div class="right-menu border-bottom">
                     <ul>
-                      <a href="/sopus/pumpkinSoup.html"
-                        ><li>Creamy Pumpkin Soup</li></a
+                      <a href="/main-dish/lasagne.html"
+                        ><li id="current">Lasagne</li></a
                       >
+                      <a href="/main-dish/curry.html"><li>Curry</li></a>
                     </ul>
                   </div>
                 </div>
@@ -107,7 +108,90 @@
           </div>
         </div>
       </nav>
-      <content class="col-8 bg-light"> </content>
+      <content class="col-8 bg-light">
+        <div class="font-awesome">
+          <i class="fa-solid fa-pencil"></i>
+          <i class="fa-solid fa-list-check"></i>
+          <i class="fa-regular fa-calendar-check"></i>
+          <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+          <i class="fa-solid fa-ruler"></i>
+          <a href="#"
+            ><i class="fa-solid fa-share-nodes" onclick="myFunction()"></i
+          ></a>
+          <i class="fa-solid fa-file-import"></i>
+          <i class="fa-solid fa-trash"></i>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <h2 class="recipe-title row d-flex flex-column">Lasagne</h2>
+        <hr />
+        <p class="recipe-description">
+          Comfort food doesn't get much more classic than this Italian
+          favourite.
+        </p>
+        <div class="recipe-image-container">
+          <img
+            class="recipe-image"
+            src="https://images.pexels.com/photos/8023752/pexels-photo-8023752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Lasagne served on a plate"
+          />
+        </div>
+        <table class="recipe-table">
+          <tr>
+            <th>Measurements</th>
+            <th>Ingredients</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>1 tbs</td>
+              <td>Olive oil</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Diced onion</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Diced carrot</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Chopped celery stalk</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Garlic gloves</td>
+            </tr>
+            <tr>
+              <td>500g</td>
+              <td>Meat of choice</td>
+            </tr>
+            <tr>
+              <td>1 tbs</td>
+              <td>Tomato puree</td>
+            </tr>
+            <tr>
+              <td>400g</td>
+              <td>Canned tomatoes</td>
+            </tr>
+            <tr>
+              <td>200ml</td>
+              <td>Broth</td>
+            </tr>
+            <tr>
+              <td>200ml</td>
+              <td>Red wine</td>
+            </tr>
+            <tr>
+              <td>200g</td>
+              <td>Mozzarella</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td colspan="2">Lasagne sheets</td>
+            </tr>
+          </tbody>
+        </table></content
+      >
     </main>
   </body>
 </html>

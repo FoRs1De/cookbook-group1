@@ -32,7 +32,7 @@ nav > p {
   text-decoration: none;
 }
 
-.current li {
+#current {
   background-color: grey;
   color: white;
 }

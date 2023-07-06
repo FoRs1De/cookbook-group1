@@ -21,12 +21,12 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
     <script src="./index.js"></script>
     <title>Cook Book Group1</title>
   </head>
-  <body>
-    <main class="row container-fluid bg-body-secondary">
+  <body class="bg-light">
+    <main class="row container-fluid">
       <nav
         class="d-block col-4 bg-light border-end border-bottom border-3"
         style="padding-right: 0px; padding-left: 0px"
@@ -71,22 +71,35 @@
                 <div class="wrapper-menu">
                   <div class="left-menu border-end border-bottom">
                     <ul>
-                      <a href="index.html"
+                      <a href="/"
                         ><li>
                           Soups
                           <i class="fa-solid fa-ellipsis-vertical"></i></li
                       ></a>
-                      <a><li>Spices & more</li></a>
-                      <a><li>Rice</li></a>
-                      <a><li>Main dish</li></a>
+                      <a href="/main-dish/lasagne.html"
+                        ><li id="current">
+                          Main dish<i
+                            class="fa-solid fa-ellipsis-vertical"
+                          ></i></li
+                      ></a>
+                      <a href="/salads/guacamole.html"
+                        ><li>
+                          Salads<i
+                            class="fa-solid fa-ellipsis-vertical"
+                          ></i></li
+                      ></a>
+                      <a
+                        ><li>
+                          Rice<i class="fa-solid fa-ellipsis-vertical"></i></li
+                      ></a>
                     </ul>
                   </div>
                   <div class="right-menu border-bottom">
                     <ul>
-                      <a href="index.html"><li>Creamy Pumpkin Soup</li></a>
-                      <a href="curry.html"><li>Chickpea Curry</li></a>
-                      <a href="lasagne.html"><li>Lasagne</li></a>
-                      <a href="guacamole.html"><li>Guacamole</li></a>
+                      <a href="/main-dish/lasagne.html"><li>Lasagne</li></a>
+                      <a href="/main-dish/curry.html"
+                        ><li id="current">Chickpea Curry</li></a
+                      >
                     </ul>
                   </div>
                 </div>
@@ -109,17 +122,17 @@
           <i class="fa-solid fa-trash"></i>
           <i class="fa-solid fa-ellipsis-vertical"></i>
         </div>
-        <h2 class="recipe-title row d-flex flex-column">Lasagne</h2>
+        <h2 class="recipe-title row d-flex flex-column">Chickpea Curry</h2>
         <hr />
         <p class="recipe-description">
-          Comfort food doesn't get much more classic than this Italian
-          favourite.
+          This chickpea curry is full of amazing flavours, with just enough
+          spiciness. Serve it with some rice and bread.
         </p>
         <div class="recipe-image-container">
           <img
             class="recipe-image"
-            src="https://images.pexels.com/photos/8023752/pexels-photo-8023752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="Lasagne served on a plate"
+            src="https://images.pexels.com/photos/6546437/pexels-photo-6546437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="A bowl of chickpea curry"
           />
         </div>
         <table class="recipe-table">
@@ -129,52 +142,60 @@
           </tr>
           <tbody>
             <tr>
-              <td>1 tbs</td>
-              <td>Olive oil</td>
+              <td>1</td>
+              <td>Onion</td>
+            </tr>
+            <tr>
+              <td>3 gloves</td>
+              <td>Garlic</td>
             </tr>
             <tr>
               <td>1</td>
-              <td>Diced onion</td>
+              <td>Hot red chilli</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>Diced carrot</td>
+              <td>3 cm</td>
+              <td>Ginger</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>Chopped celery stalk</td>
+              <td>3 tsp</td>
+              <td>Sea salt</td>
             </tr>
             <tr>
-              <td>2</td>
-              <td>Garlic gloves</td>
+              <td>1 tsp</td>
+              <td>Ground turmeric</td>
             </tr>
             <tr>
-              <td>500g</td>
-              <td>Meat of choice</td>
+              <td>1 tsp</td>
+              <td>Mustard seeds</td>
             </tr>
             <tr>
-              <td>1 tbs</td>
+              <td>1 tsp</td>
+              <td>Ground coriander</td>
+            </tr>
+            <tr>
+              <td>1 tsp</td>
+              <td>Mustard seeds</td>
+            </tr>
+            <tr>
+              <td>1 tsp</td>
+              <td>Ground cumin</td>
+            </tr>
+            <tr>
+              <td>1 tsp</td>
+              <td>Ground fenugreek</td>
+            </tr>
+            <tr>
+              <td>2 tbs</td>
               <td>Tomato puree</td>
             </tr>
             <tr>
-              <td>400g</td>
-              <td>Canned tomatoes</td>
+              <td>2 cans</td>
+              <td>Chickpeas</td>
             </tr>
             <tr>
-              <td>200ml</td>
-              <td>Broth</td>
-            </tr>
-            <tr>
-              <td>200ml</td>
-              <td>Red wine</td>
-            </tr>
-            <tr>
-              <td>200g</td>
-              <td>Mozzarella</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td colspan="2">Lasagne sheets</td>
+              <td>1 can</td>
+              <td>Coconut milk</td>
             </tr>
           </tbody>
         </table></content
